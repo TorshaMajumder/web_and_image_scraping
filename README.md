@@ -5,10 +5,13 @@ This repository contains two parts: **Web Scraping** and **Image Scraping**.
 ***
 #### Web Scraping:
 For scraping static webpages, run the **static_webpage_scraping.ipynb** file.
+
 **URL**: [Wikipedia Page](https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent_(data_file))
+
 **Dependencies**: requests, pandas, bs4, lxml
 
 For scraping interactive webpages, run the **interactive_webpage_scraping.ipynb** file.
+
 **URL**: 
 * [Webpage 1](https://mars.nasa.gov/news/)
 * [Webpage 2](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
@@ -19,10 +22,13 @@ For scraping interactive webpages, run the **interactive_webpage_scraping.ipynb*
 ***
 #### Image Scraping:
 For scraping images, packages used: **BeautifulSoup** and **Scrapy**.
+
 **URL** : [Website](https://rubikscode.net/blog/)
+
 **Dependencies**: beautifulsoup4, scrapy, Pillow, shutil
 
 For scraping images through  **BeautifulSoup** run the main.py file. 
+
 The scraped images are stored under the folder **Image_Scraping -> images -> image_soup**
 
 For scraping images through **Scrapy**:
